@@ -136,6 +136,7 @@ my_linked_list.pop()
 my_linked_list.pop_first()
 my_linked_list.insert(2,44)
 my_linked_list.remove(2)
+my_linked_list.append(100)
 
 print('LL before reverse():')
 my_linked_list.print_list()
