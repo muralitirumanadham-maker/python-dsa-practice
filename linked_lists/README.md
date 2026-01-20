@@ -12,6 +12,8 @@ This folder contains Python implementations of Linked List concepts.
 6. Linked List Cycle Detection
 7. Palindrome Linked List
 8. Add Two Numbers
+9. Reorder List
+
 
 
 
