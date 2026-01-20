@@ -6,4 +6,7 @@ This folder contains Python implementations of Linked List concepts.
 
 1. Linked List Basics (Node, append, pop, reverse)
 2. Reverse Linked List (Iterative)
- Python
+3. Middle of Linked List
+
+## Language
+  Python
