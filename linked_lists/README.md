@@ -10,6 +10,8 @@ This folder contains Python implementations of Linked List concepts.
 4. Merge Two Sorted Lists
 5. Remove Nth Node from End
 6. Linked List Cycle Detection
+7. 7. Palindrome Linked List
+
 
 
 ## Language
