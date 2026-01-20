@@ -1,6 +1,6 @@
 # Linked List
 
-This folder contains Python implementations of Linked List concepts.
+This folder contains Python implementations of important Linked List problems for interview preparation.
 
 ## Implementations
 
@@ -13,9 +13,11 @@ This folder contains Python implementations of Linked List concepts.
 7. Palindrome Linked List
 8. Add Two Numbers
 9. Reorder List
+10. Reverse Nodes in K Groups
 
-
-
-
-## Language
-  Python
+## Concepts Covered
+- Pointer manipulation
+- Slow and fast pointer technique
+- Two pointer technique
+- In-place reversal
+- Linked list traversal
