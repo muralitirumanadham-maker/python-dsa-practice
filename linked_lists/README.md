@@ -8,6 +8,8 @@ This folder contains Python implementations of Linked List concepts.
 2. Reverse Linked List (Iterative)
 3. Middle of Linked List
 4. Merge Two Sorted Lists
+5. Remove Nth Node from End
+
 
 ## Language
   Python
