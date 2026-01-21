@@ -6,8 +6,9 @@ using `next` and `prev` pointers.
 
 ## Implementations
 
-1. Doubly Linked List Core Operations  
+1. Doubly Linked List Core Operations
 2. Palindrome Check using Doubly Linked List
+3. Reverse Doubly Linked List
 
 ## Operations Covered
 
@@ -21,6 +22,7 @@ using `next` and `prev` pointers.
 - Remove at index
 - Forward traversal
 - Palindrome check
+- Reverse linked list (in-place)
 
 ## Key Concepts
 
@@ -28,4 +30,5 @@ using `next` and `prev` pointers.
 - Efficient deletion using `prev` pointer
 - Optimized index-based access
 - Two-pointer technique (forward & backward)
+- In-place reversal
 - Pointer manipulation (`next` and `prev`)
