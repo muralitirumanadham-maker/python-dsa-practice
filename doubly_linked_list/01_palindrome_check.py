@@ -42,12 +42,12 @@ class doublyll:
         backward=self.tail
         while forward is not None and backward is not None:
             if forward.value!=backward.value:
-                return "Not palindrome"
+                return False
             if forward==backward or forward.prev==backward:
                 break
             forward=forward.next
             backward=backward.prev
-        return "Palindrome"
+        return True
     
 
 dll = doublyll(1)
@@ -57,9 +57,8 @@ dll.append(2)
 dll.append(1)
 
 dll.print_list()
-print(f" is {dll.palindrome()}")
+print(dll.palindrome())
 
 
 
         
-
