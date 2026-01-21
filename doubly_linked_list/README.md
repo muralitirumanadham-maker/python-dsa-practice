@@ -9,6 +9,7 @@ using `next` and `prev` pointers.
 1. Doubly Linked List Core Operations
 2. Palindrome Check using Doubly Linked List
 3. Reverse Doubly Linked List
+4. Partition Doubly Linked List
 
 ## Operations Covered
 
@@ -23,6 +24,7 @@ using `next` and `prev` pointers.
 - Forward traversal
 - Palindrome check
 - Reverse linked list (in-place)
+- Partition list around a value
 
 ## Key Concepts
 
@@ -31,4 +33,5 @@ using `next` and `prev` pointers.
 - Optimized index-based access
 - Two-pointer technique (forward & backward)
 - In-place reversal
+- List partitioning using dummy nodes
 - Pointer manipulation (`next` and `prev`)
