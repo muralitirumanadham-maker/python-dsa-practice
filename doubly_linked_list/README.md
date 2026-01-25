@@ -11,6 +11,7 @@ using `next` and `prev` pointers.
 3. Reverse Doubly Linked List
 4. Partition Doubly Linked List
 5. Reverse Doubly Linked List Between Indices
+6. Swap Pairs in Doubly Linked List
 
 ## Operations Covered
 
@@ -27,6 +28,7 @@ using `next` and `prev` pointers.
 - Reverse linked list (in-place)
 - Partition list around a value
 - Reverse sublist between given indices
+- Swap adjacent nodes in pairs
 
 ## Key Concepts
 
