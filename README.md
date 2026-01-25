@@ -1,13 +1,16 @@
 # python-dsa-practice
 
-This repository contains Python implementations of Data Structures and Algorithms for interview preparation.
-Each topic is organized into folders with clean, readable, and optimized solutions.
+This repository contains Python implementations of Data Structures and Algorithms
+for interview preparation. Each topic is organized into folders with clean,
+readable, and optimized solutions.
 
 ## Topics Covered
-- Linked Lists ✅
+
+- Singly Linked Lists ✅
+- Doubly Linked Lists (including LRU Cache) ✅
 
 ## Upcoming Topics
-- Doubly Linked List
+
 - Stacks & Queues
 - Trees (Binary Tree, BST)
 - Recursion & Backtracking
@@ -16,10 +19,11 @@ Each topic is organized into folders with clean, readable, and optimized solutio
 - Graphs
 
 ## Language
+
 - Python
 
 ## Goal
-The goal of this repository is to build strong fundamentals in DSA through
-step-by-step problem solving and clean implementations.
 
-
+The goal of this repository is to build strong fundamentals in Data Structures
+and Algorithms through step-by-step problem solving, clean implementations,
+and interview-ready solutions.
