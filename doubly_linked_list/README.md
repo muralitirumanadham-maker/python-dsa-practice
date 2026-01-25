@@ -10,6 +10,7 @@ using `next` and `prev` pointers.
 2. Palindrome Check using Doubly Linked List
 3. Reverse Doubly Linked List
 4. Partition Doubly Linked List
+5. Reverse Doubly Linked List Between Indices
 
 ## Operations Covered
 
@@ -25,6 +26,7 @@ using `next` and `prev` pointers.
 - Palindrome check
 - Reverse linked list (in-place)
 - Partition list around a value
+- Reverse sublist between given indices
 
 ## Key Concepts
 
