@@ -6,12 +6,12 @@ using `next` and `prev` pointers.
 
 ## Implementations
 
-1. Doubly Linked List Core Operations
-2. Palindrome Check using Doubly Linked List
-3. Reverse Doubly Linked List
-4. Partition Doubly Linked List
-5. Reverse Doubly Linked List Between Indices
-6. Swap Pairs in Doubly Linked List
+1. Doubly Linked List Core Operations  
+2. Palindrome Check using Doubly Linked List  
+3. Reverse Doubly Linked List  
+4. Partition Doubly Linked List  
+5. Reverse Doubly Linked List Between Indices  
+6. Swap Pairs in Doubly Linked List  
 
 ## Operations Covered
 
