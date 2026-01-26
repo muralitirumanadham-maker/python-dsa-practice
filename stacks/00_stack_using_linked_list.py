@@ -20,8 +20,8 @@ class stack:
 
     def pop(self):
         temp=self.top
-        if self.top is None:
-            return self.top
+        if self.height ==0:
+            return None
         self.top=self.top.next
         temp.next=None
         self.height-=1
