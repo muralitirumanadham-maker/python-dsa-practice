@@ -9,6 +9,7 @@ Stack follows the LIFO (Last In, First Out) principle.
 2. Stack using List (Array)
 3. Reverse String using Stack
 4. Balanced Parentheses using Stack
+5. Sort Stack using Another Stack
 
 ## Operations Covered
 
@@ -20,6 +21,7 @@ Stack follows the LIFO (Last In, First Out) principle.
 - Stack traversal
 - Reverse string using stack
 - Balanced parentheses validation
+- Sort stack using auxiliary stack
 
 ## Key Concepts
 
@@ -28,4 +30,5 @@ Stack follows the LIFO (Last In, First Out) principle.
 - Stack implementation using list
 - Using stack for string reversal
 - Using stack for parentheses validation
+- Sorting using stack constraints
 - O(1) push and pop operations
