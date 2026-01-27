@@ -11,6 +11,7 @@ Stack follows the LIFO (Last In, First Out) principle.
 4. Balanced Parentheses using Stack
 5. Sort Stack using Another Stack
 6. Min Stack
+7. Daily Temperatures (Monotonic Stack)
 
 ## Operations Covered
 
@@ -24,6 +25,7 @@ Stack follows the LIFO (Last In, First Out) principle.
 - Balanced parentheses validation
 - Sort stack using auxiliary stack
 - Get minimum element in O(1) time
+- Monotonic stack usage
 
 ## Key Concepts
 
@@ -35,3 +37,4 @@ Stack follows the LIFO (Last In, First Out) principle.
 - Sorting using stack constraints
 - Auxiliary stack usage
 - Constant-time minimum retrieval
+- Monotonic stack pattern
