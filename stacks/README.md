@@ -12,6 +12,7 @@ Stack follows the LIFO (Last In, First Out) principle.
 5. Sort Stack using Another Stack
 6. Min Stack
 7. Daily Temperatures (Monotonic Stack)
+8. Next Greater Element II (Circular Monotonic Stack)
 
 ## Operations Covered
 
@@ -26,6 +27,7 @@ Stack follows the LIFO (Last In, First Out) principle.
 - Sort stack using auxiliary stack
 - Get minimum element in O(1) time
 - Monotonic stack usage
+- Circular monotonic stack traversal
 
 ## Key Concepts
 
@@ -38,3 +40,4 @@ Stack follows the LIFO (Last In, First Out) principle.
 - Auxiliary stack usage
 - Constant-time minimum retrieval
 - Monotonic stack pattern
+- Circular array handling using modulo
