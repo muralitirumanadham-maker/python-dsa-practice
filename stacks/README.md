@@ -20,6 +20,7 @@ parsing, validation, monotonic stack problems, and design questions.
 8. Next Greater Element II — Circular Array
 9. Next Greater Element I — Stack + HashMap
 10. Previous Smaller Element — Monotonic Stack
+11. Stock Span — Monotonic Stack
 
 ---
 
@@ -39,7 +40,7 @@ parsing, validation, monotonic stack problems, and design questions.
 - Circular array stack traversal
 - Next greater element mapping
 - Previous smaller element lookup
-
+- Previous greater element distance pattern
 ---
 
 ## Key Concepts
