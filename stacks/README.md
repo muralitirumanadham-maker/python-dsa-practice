@@ -19,6 +19,7 @@ parsing, validation, monotonic stack problems, and design questions.
 7. Daily Temperatures (Monotonic Stack)
 8. Next Greater Element II — Circular Array
 9. Next Greater Element I — Stack + HashMap
+10. Previous Smaller Element — Monotonic Stack
 
 ---
 
@@ -37,6 +38,7 @@ parsing, validation, monotonic stack problems, and design questions.
 - Monotonic stack pattern
 - Circular array stack traversal
 - Next greater element mapping
+- Previous smaller element lookup
 
 ---
 
@@ -47,6 +49,7 @@ parsing, validation, monotonic stack problems, and design questions.
 - Stack using array (Python list)
 - Auxiliary stack usage
 - Monotonic decreasing stack
+- Monotonic increasing stack
 - Circular traversal using modulo
 - Stack + HashMap combination
 - O(1) push and pop operations
