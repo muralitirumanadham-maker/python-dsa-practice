@@ -1,10 +1,10 @@
 # Stack
 
 This folder contains Python implementations of the Stack data structure and
-important interview problems based on stack patterns.
+high-value interview problems based on stack patterns.
 
 Stack follows the LIFO (Last In, First Out) principle and is widely used in
-parsing, validation, monotonic stack problems, and design questions.
+validation, parsing, monotonic stack problems, and design questions.
 
 ---
 
@@ -16,31 +16,29 @@ parsing, validation, monotonic stack problems, and design questions.
 4. Balanced Parentheses using Stack
 5. Sort Stack using Another Stack
 6. Min Stack (O(1) minimum retrieval)
-7. Daily Temperatures (Monotonic Stack)
+7. Daily Temperatures — Monotonic Stack
 8. Next Greater Element II — Circular Array
 9. Next Greater Element I — Stack + HashMap
 10. Previous Smaller Element — Monotonic Stack
 11. Stock Span — Monotonic Stack
+12. Largest Rectangle in Histogram — Monotonic Stack
 
 ---
 
 ## Operations Covered
 
-- Push
-- Pop
-- Peek / Top
-- Is Empty
-- Size
+- Push / Pop / Peek
+- Is Empty / Size
 - Stack traversal
 - Reverse string using stack
 - Balanced parentheses validation
 - Stack sorting using auxiliary stack
 - Minimum element in constant time
-- Monotonic stack pattern
+- Next greater / smaller element patterns
 - Circular array stack traversal
-- Next greater element mapping
-- Previous smaller element lookup
-- Previous greater element distance pattern
+- Stock span computation
+- Histogram max area computation
+
 ---
 
 ## Key Concepts
@@ -53,6 +51,7 @@ parsing, validation, monotonic stack problems, and design questions.
 - Monotonic increasing stack
 - Circular traversal using modulo
 - Stack + HashMap combination
+- Previous/Next greater-smaller patterns
 - O(1) push and pop operations
 - O(n) monotonic stack solutions
 
@@ -60,5 +59,5 @@ parsing, validation, monotonic stack problems, and design questions.
 
 ## Interview Value
 
-The problems in this folder cover the most common stack patterns asked in
-technical interviews at companies like Amazon, Google, Microsoft, and Meta.
+This folder covers all major stack patterns commonly asked in technical
+interviews at companies like Google, Amazon, Microsoft, and Meta.
