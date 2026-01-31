@@ -8,10 +8,10 @@ readable, and optimized solutions.
 
 - Singly Linked Lists ✅
 - Doubly Linked Lists (including LRU Cache) ✅
+- Stacks & Queues ✅
 
 ## Upcoming Topics
 
-- Stacks & Queues
 - Trees (Binary Tree, BST)
 - Recursion & Backtracking
 - Hashing
