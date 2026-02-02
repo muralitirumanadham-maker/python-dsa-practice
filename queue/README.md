@@ -12,7 +12,7 @@ inserted at the rear and removed from the front.
 
 1. Queue using Linked List
 2. Queue using Two Stacks
-3. First Non-Repeating Character in a Stream using queue
+3. First Non-Repeating Character in a Stream
 
 ---
 
@@ -23,6 +23,7 @@ inserted at the rear and removed from the front.
 - Peek / Front
 - Is Empty
 - Queue traversal
+- First non-repeating character detection
 
 ---
 
@@ -31,13 +32,12 @@ inserted at the rear and removed from the front.
 - FIFO behavior
 - Queue implementation using linked list
 - Queue implementation using stacks
-- Efficient O(1) enqueue and dequeue operations
-- Solving stream-based problems using queues
-- Combining Queue with HashMap (frequency counting)
+- Queue + HashMap combination
+- Efficient stream processing
+
 ---
 
 ## Interview Value
 
-Queue implementations and design problems are commonly asked in technical
-interviews at companies like Amazon, Google, and Microsoft.
-
+Queue-based stream problems are commonly asked in technical interviews at
+companies like Amazon, Google, and Microsoft.
