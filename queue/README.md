@@ -12,6 +12,7 @@ inserted at the rear and removed from the front.
 
 1. Queue using Linked List
 2. Queue using Two Stacks
+3. First Non-Repeating Character in a Stream using queue
 
 ---
 
@@ -31,7 +32,8 @@ inserted at the rear and removed from the front.
 - Queue implementation using linked list
 - Queue implementation using stacks
 - Efficient O(1) enqueue and dequeue operations
-
+- Solving stream-based problems using queues
+- Combining Queue with HashMap (frequency counting)
 ---
 
 ## Interview Value
