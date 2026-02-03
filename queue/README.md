@@ -15,6 +15,7 @@ inserted at the rear and removed from the front.
 3. First Non-Repeating Character in a Stream
 4. Reverse First K Elements of Queue
 5. Time Needed to Buy Tickets
+6. Gas Station Circuit
 
 ---
 
@@ -27,6 +28,8 @@ inserted at the rear and removed from the front.
 - Queue traversal
 - First non-repeating character detection
 - Reverse first k elements in queue
+- Queue simulation
+- Greedy traversal for circular route
 
 ---
 
@@ -37,12 +40,13 @@ inserted at the rear and removed from the front.
 - Queue implementation using stacks
 - Queue + HashMap combination
 - Stack + Queue interaction
-- Efficient queue manipulation
-- Queue simulation
+- Queue simulation techniques
+- Greedy decision making
 
 ---
 
 ## Interview Value
 
-Queue manipulation problems are commonly asked in technical interviews at
-companies like Amazon, Google, and Microsoft.
+The problems in this folder cover the most common queue-based and traversal
+patterns asked in technical interviews at companies like Amazon, Google,
+and Microsoft.
