@@ -14,6 +14,7 @@ inserted at the rear and removed from the front.
 2. Queue using Two Stacks
 3. First Non-Repeating Character in a Stream
 4. Reverse First K Elements of Queue
+5. Time Needed to Buy Tickets
 
 ---
 
@@ -37,6 +38,7 @@ inserted at the rear and removed from the front.
 - Queue + HashMap combination
 - Stack + Queue interaction
 - Efficient queue manipulation
+- Queue simulation
 
 ---
 
