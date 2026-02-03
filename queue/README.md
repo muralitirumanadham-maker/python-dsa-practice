@@ -16,6 +16,7 @@ inserted at the rear and removed from the front.
 4. Reverse First K Elements of Queue
 5. Time Needed to Buy Tickets
 6. Gas Station Circuit
+7. Rotting Oranges (Multi-Source BFS)
 
 ---
 
@@ -30,6 +31,7 @@ inserted at the rear and removed from the front.
 - Reverse first k elements in queue
 - Queue simulation
 - Greedy traversal for circular route
+- Multi-source BFS using queue
 
 ---
 
@@ -41,12 +43,12 @@ inserted at the rear and removed from the front.
 - Queue + HashMap combination
 - Stack + Queue interaction
 - Queue simulation techniques
-- Greedy decision making
+- Breadth First Search (BFS)
+- Multi-source BFS
 
 ---
 
 ## Interview Value
 
-The problems in this folder cover the most common queue-based and traversal
-patterns asked in technical interviews at companies like Amazon, Google,
-and Microsoft.
+Queue and BFS-based problems are commonly asked in technical interviews at
+companies like Amazon, Google, and Microsoft.
