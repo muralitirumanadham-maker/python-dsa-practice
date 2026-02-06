@@ -17,6 +17,10 @@ time complexity for insertion, deletion, and lookup.
    - Search (get)
    - Retrieve all keys
 
+2. Find Common Element using Hash Table
+   - Brute force O(n²) approach
+   - Optimized O(n) solution using hash map
+
 ---
 
 ## Key Concepts
@@ -25,11 +29,14 @@ time complexity for insertion, deletion, and lookup.
 - Collision handling
 - Chaining technique
 - Key-value storage
+- Time complexity optimization
+- Space vs time trade-off
 - Average-case O(1) lookup
 
 ---
 
 ## Interview Value
 
-Understanding how hash tables work internally is essential for technical
-interviews at companies like Google, Amazon, and Microsoft.
+Hash tables are one of the most important data structures in technical
+interviews. Problems focusing on optimizing time complexity using hash maps
+are frequently asked at companies like Google, Amazon, and Microsoft.
