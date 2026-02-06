@@ -8,19 +8,28 @@ time complexity for insertion, deletion, and lookup.
 
 ---
 
-## Topics Planned
+## Implementations
 
-- Hash table basics
+1. Hash Table using Chaining
+   - Custom hash function
+   - Collision handling with chaining
+   - Insert (set)
+   - Search (get)
+   - Retrieve all keys
+
+---
+
+## Key Concepts
+
 - Hash functions
 - Collision handling
-- Chaining
-- Open addressing
-- Hash table implementation
-- Common interview problems using hash maps
+- Chaining technique
+- Key-value storage
+- Average-case O(1) lookup
 
 ---
 
 ## Interview Value
 
-Hash tables are one of the most important data structures and are heavily used
-in technical interviews at companies like Google, Amazon, and Microsoft.
+Understanding how hash tables work internally is essential for technical
+interviews at companies like Google, Amazon, and Microsoft.
