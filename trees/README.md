@@ -8,14 +8,22 @@ and representing structured data.
 
 ---
 
+## Implementations
+
+1. Binary Search Tree (BST)
+   - Insert nodes
+   - Search (contains)
+   - Print tree structure
+
+---
+
 ## Topics Planned
 
-- Tree terminology and basics
-- Binary Tree
+- Binary Tree basics
 - Tree traversals (Inorder, Preorder, Postorder)
 - Level Order Traversal (BFS)
-- Binary Search Tree (BST)
-- Common interview problems
+- Binary Search Tree advanced operations
+- Common interview problems on trees
 
 ---
 
