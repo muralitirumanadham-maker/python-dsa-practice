@@ -1,11 +1,12 @@
 # python-dsa-practice
 
 This repository contains Python implementations of Data Structures and Algorithms
-designed for technical interview preparation. Each topic is organized into
-well-structured folders with clean, readable, and optimized solutions.
+for technical interview preparation. Each topic is organized into clearly
+structured folders with clean, readable, and interview-focused solutions.
 
-The focus of this repository is on mastering core DSA concepts, understanding
-problem-solving patterns, and building interview-ready implementations.
+The repository emphasizes strong fundamentals, problem-solving patterns,
+and well-explained implementations commonly asked in product-based company
+interviews.
 
 ---
 
@@ -13,16 +14,26 @@ problem-solving patterns, and building interview-ready implementations.
 
 - Singly Linked Lists
 - Doubly Linked Lists (including LRU Cache)
-- Stacks (basic operations, design problems, monotonic stack patterns)
-- Queues (core implementations and interview-level problems)
+- Stacks  
+  - Basic stack operations  
+  - Design problems  
+  - Monotonic stack patterns  
+- Queues  
+  - Core queue implementations  
+  - BFS and simulation-based problems  
 
 ---
 
-## Upcoming Topics 🚀
+## Topics In Progress 🚀
 
 - Trees (Binary Tree, Binary Search Tree)
+- Hash Tables (Hash Maps)
+
+---
+
+## Upcoming Topics
+
 - Recursion & Backtracking
-- Hashing Patterns
 - Heaps / Priority Queue
 - Graphs
 - Sliding Window & Two Pointers
@@ -39,7 +50,7 @@ problem-solving patterns, and building interview-ready implementations.
 
 ## Goal
 
-The goal of this repository is to build strong fundamentals in Data Structures
-and Algorithms through step-by-step learning, pattern recognition, and
-consistent practice, with the aim of preparing for technical interviews at
-companies like Google, Amazon, Microsoft, and other product-based organizations.
+The goal of this repository is to develop a strong foundation in Data Structures
+and Algorithms through step-by-step learning, pattern recognition, and consistent
+practice, with the aim of preparing for technical interviews at companies like
+Google, Amazon, Microsoft, and other product-based organizations.
