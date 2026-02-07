@@ -33,6 +33,10 @@ time complexity for insertion, deletion, and lookup.
    - Group strings with same character frequency
    - Hash map with sorted string as key
 
+6. Two Sum
+   - Find two indices whose values sum to target
+   - Optimized O(n) solution using hash map
+
 ---
 
 ## Key Concepts
@@ -44,13 +48,13 @@ time complexity for insertion, deletion, and lookup.
 - Time complexity optimization
 - Space vs time trade-off
 - Frequency counting
-- String normalization
+- Complement lookup pattern
 - Average-case O(1) lookup
 
 ---
 
 ## Interview Value
 
-Hash table problems involving frequency counting, grouping, and optimization
-are very commonly asked in technical interviews at companies like Google,
-Amazon, and Microsoft.
+Hash table problems focusing on lookup optimization, frequency counting, and
+complement-based searching are extremely common in technical interviews at
+companies like Google, Amazon, and Microsoft.
