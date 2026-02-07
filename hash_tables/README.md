@@ -29,6 +29,10 @@ time complexity for insertion, deletion, and lookup.
    - Frequency-based hash map solution
    - Returns first unique character in a string
 
+5. Group Anagrams
+   - Group strings with same character frequency
+   - Hash map with sorted string as key
+
 ---
 
 ## Key Concepts
@@ -40,12 +44,13 @@ time complexity for insertion, deletion, and lookup.
 - Time complexity optimization
 - Space vs time trade-off
 - Frequency counting
+- String normalization
 - Average-case O(1) lookup
 
 ---
 
 ## Interview Value
 
-Hash table problems focusing on frequency counting, duplicate detection, and
-time complexity optimization are very commonly asked in technical interviews
-at companies like Google, Amazon, and Microsoft.
+Hash table problems involving frequency counting, grouping, and optimization
+are very commonly asked in technical interviews at companies like Google,
+Amazon, and Microsoft.
