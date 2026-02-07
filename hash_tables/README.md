@@ -37,6 +37,10 @@ time complexity for insertion, deletion, and lookup.
    - Find two indices whose values sum to target
    - Optimized O(n) solution using hash map
 
+7. Subarray Sum Equals Target
+   - Prefix sum + hash map approach
+   - Handles negative numbers efficiently
+
 ---
 
 ## Key Concepts
@@ -49,12 +53,13 @@ time complexity for insertion, deletion, and lookup.
 - Space vs time trade-off
 - Frequency counting
 - Complement lookup pattern
+- Prefix sum technique
 - Average-case O(1) lookup
 
 ---
 
 ## Interview Value
 
-Hash table problems focusing on lookup optimization, frequency counting, and
-complement-based searching are extremely common in technical interviews at
-companies like Google, Amazon, and Microsoft.
+Hash table problems involving prefix sums, frequency maps, and optimized
+lookup strategies are extremely common in technical interviews at companies
+like Google, Amazon, and Microsoft.
