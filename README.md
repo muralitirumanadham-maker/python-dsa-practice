@@ -21,13 +21,20 @@ interviews.
 - Queues  
   - Core queue implementations  
   - BFS and simulation-based problems  
+- Hash Tables (Hash Maps & Sets)  
+  - Custom hash table implementation (chaining)  
+  - Frequency-based problems  
+  - Two Sum, Subarray Sum  
+  - Anagram grouping  
+  - Set-based optimizations (duplicates, uniqueness, longest consecutive sequence)
 
 ---
 
 ## Topics In Progress 🚀
 
-- Trees (Binary Tree, Binary Search Tree)
-- Hash Tables (Hash Maps)
+- Trees  
+  - Binary Tree  
+  - Binary Search Tree (BST)
 
 ---
 
