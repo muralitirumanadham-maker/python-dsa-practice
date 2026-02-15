@@ -25,9 +25,9 @@ The focus is on:
 ## Implementations
 
 ### 1. Graph Representation
-- Adjacency List implementation
-- Add edge (directed & undirected)
-- Print graph
+- Adjacency List implementation for undirected graphs
+- Supports add/remove vertex and edge operations
+
 
 ### 2. Breadth First Search (BFS)
 - BFS traversal from a given source
