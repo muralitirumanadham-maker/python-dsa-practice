@@ -5,8 +5,8 @@ commonly asked in technical interviews.
 
 The focus is on:
 - Understanding graph representation
-- Applying DFS on graph-based problems
-- Building strong graph fundamentals step by step
+- Applying BFS and DFS traversal techniques
+- Solving graph-based interview problems step by step
 
 ---
 
@@ -29,8 +29,16 @@ The focus is on:
 - Remove vertex
 - Print graph structure
 
-This implementation builds the foundation for all
-graph traversal and problem-solving techniques.
+This implementation forms the foundation for
+all graph traversal algorithms.
+
+---
+
+### 2. Breadth First Search (BFS)
+- BFS traversal using a queue (`deque`)
+- Uses `visited` set to avoid revisiting nodes
+- Traverses graph level by level
+- Time Complexity: **O(V + E)**
 
 ---
 
@@ -38,13 +46,8 @@ graph traversal and problem-solving techniques.
 
 ### Flood Fill (DFS)
 - Depth First Search (DFS) on a 2D grid
-- Each cell is treated as a graph node
-- 4-directional adjacency:
-  - Up
-  - Down
-  - Left
-  - Right
-- Uses recursion to fill connected components
+- Each cell treated as a graph node
+- 4-directional adjacency (up, down, left, right)
 - Handles edge cases to prevent infinite recursion
 
 ---
@@ -52,6 +55,7 @@ graph traversal and problem-solving techniques.
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
+- Breadth First Search (BFS)
 - Flood Fill (DFS on Grid)
 
 ---
@@ -68,3 +72,4 @@ graph traversal and problem-solving techniques.
 
 Graph algorithms are being added incrementally with clean,
 readable, and interview-focused implementations.
+4
