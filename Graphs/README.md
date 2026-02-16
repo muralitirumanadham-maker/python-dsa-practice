@@ -44,7 +44,7 @@ all graph traversal algorithms.
 
 ### 3. Depth First Search (DFS)
 - Recursive DFS traversal
-- Uses `visited` list to track visited nodes
+- Uses `visited` list / set to track visited nodes
 - Explores one branch fully before backtracking
 - Time Complexity: **O(V + E)**
 
@@ -62,8 +62,15 @@ all graph traversal algorithms.
 
 ### Detect Cycle in Undirected Graph (BFS)
 - Uses Breadth First Search (BFS)
-- Maintains parent information for each node
-- A cycle is detected if a visited neighbor is not the parent
+- Maintains parent information
+- Detects cycles in disconnected graphs
+
+---
+
+### Detect Cycle in Undirected Graph (DFS)
+- Uses Depth First Search (DFS)
+- Tracks parent node during recursion
+- A cycle exists if a visited neighbor is not the parent
 - Works for disconnected graphs
 
 ---
@@ -75,6 +82,7 @@ all graph traversal algorithms.
 - Depth First Search (DFS)
 - Flood Fill (DFS on Grid)
 - Detect Cycle in Undirected Graph (BFS)
+- Detect Cycle in Undirected Graph (DFS)
 
 ---
 
