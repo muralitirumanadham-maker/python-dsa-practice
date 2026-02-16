@@ -4,57 +4,55 @@ This folder contains Python implementations of **Graph Data Structures and Algor
 commonly asked in technical interviews.
 
 The focus is on:
-- Clear graph representations
-- Core traversal algorithms
-- Problem-solving patterns using graphs
-- BFS / DFS based interview questions
+- Understanding graph representation
+- Applying DFS on graph-based problems
+- Building strong graph fundamentals step by step
 
 ---
 
 ## Concepts Covered
 
 ### Graph Basics
-- Graph representation using:
-  - Adjacency List
-  - Adjacency Matrix (conceptual)
-- Directed vs Undirected Graphs
-- Weighted vs Unweighted Graphs
+- Graph representation using **Adjacency List**
+- Undirected graphs
+- Vertex and edge operations
 
 ---
 
 ## Implementations
 
-### 1. Graph Representation
-- Adjacency List implementation for undirected graphs
-- Supports add/remove vertex and edge operations
+### 1. Graph Representation (Adjacency List)
+- Undirected graph implementation
+- Add vertex
+- Add edge
+- Remove edge
+- Remove vertex
+- Print graph structure
 
-
-### 2. Breadth First Search (BFS)
-- BFS traversal from a given source
-- Uses Queue
-- Level-order traversal concept
-
-### 3. Depth First Search (DFS)
-- DFS using recursion
-- DFS using stack (iterative)
+This implementation builds the foundation for all
+graph traversal and problem-solving techniques.
 
 ---
 
-## Graph Traversal Patterns
+## Grid-Based Graph Problems
 
-- Visit tracking using `set`
-- Handling disconnected graphs
-- Source-based traversal
+### Flood Fill (DFS)
+- Depth First Search (DFS) on a 2D grid
+- Each cell is treated as a graph node
+- 4-directional adjacency:
+  - Up
+  - Down
+  - Left
+  - Right
+- Uses recursion to fill connected components
+- Handles edge cases to prevent infinite recursion
 
 ---
 
-## Interview Problems (Planned)
+## Interview Problems (Implemented)
 
-- Number of Connected Components
-- Detect Cycle in Graph
-- Flood Fill
-- Rotten Oranges (Graph BFS)
-- Course Schedule (Topological Sort – later)
+- Graph Representation using Adjacency List
+- Flood Fill (DFS on Grid)
 
 ---
 
