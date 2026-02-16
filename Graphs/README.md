@@ -42,6 +42,14 @@ all graph traversal algorithms.
 
 ---
 
+### 3. Depth First Search (DFS)
+- Recursive DFS traversal
+- Uses `visited` list to track visited nodes
+- Explores one branch fully before backtracking
+- Time Complexity: **O(V + E)**
+
+---
+
 ## Grid-Based Graph Problems
 
 ### Flood Fill (DFS)
@@ -56,6 +64,7 @@ all graph traversal algorithms.
 
 - Graph Representation using Adjacency List
 - Breadth First Search (BFS)
+- Depth First Search (DFS)
 - Flood Fill (DFS on Grid)
 
 ---
@@ -72,4 +81,3 @@ all graph traversal algorithms.
 
 Graph algorithms are being added incrementally with clean,
 readable, and interview-focused implementations.
-4
