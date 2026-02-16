@@ -6,7 +6,7 @@ commonly asked in technical interviews.
 The focus is on:
 - Understanding graph representation
 - Applying BFS and DFS traversal techniques
-- Solving graph-based interview problems step by step
+- Solving common graph interview problems step by step
 
 ---
 
@@ -50,13 +50,21 @@ all graph traversal algorithms.
 
 ---
 
-## Grid-Based Graph Problems
+## Graph-Based Interview Problems
 
-### Flood Fill (DFS)
-- Depth First Search (DFS) on a 2D grid
+### Flood Fill (DFS on Grid)
+- DFS traversal on a 2D grid
 - Each cell treated as a graph node
 - 4-directional adjacency (up, down, left, right)
-- Handles edge cases to prevent infinite recursion
+- Prevents infinite recursion using base conditions
+
+---
+
+### Detect Cycle in Undirected Graph (BFS)
+- Uses Breadth First Search (BFS)
+- Maintains parent information for each node
+- A cycle is detected if a visited neighbor is not the parent
+- Works for disconnected graphs
 
 ---
 
@@ -66,6 +74,7 @@ all graph traversal algorithms.
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
 - Flood Fill (DFS on Grid)
+- Detect Cycle in Undirected Graph (BFS)
 
 ---
 
