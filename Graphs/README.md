@@ -14,7 +14,7 @@ The focus is on:
 
 ### Graph Basics
 - Graph representation using **Adjacency List**
-- Undirected graphs
+- Directed and Undirected graphs
 - Vertex and edge operations
 
 ---
@@ -75,6 +75,14 @@ all graph traversal algorithms.
 
 ---
 
+### Detect Cycle in Directed Graph (DFS)
+- Uses Depth First Search (DFS)
+- Maintains a recursion stack
+- A cycle exists if a node is revisited in the current DFS path
+- Works for disconnected directed graphs
+
+---
+
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
@@ -83,6 +91,7 @@ all graph traversal algorithms.
 - Flood Fill (DFS on Grid)
 - Detect Cycle in Undirected Graph (BFS)
 - Detect Cycle in Undirected Graph (DFS)
+- Detect Cycle in Directed Graph (DFS)
 
 ---
 
