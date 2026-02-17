@@ -7,7 +7,7 @@ The focus is on:
 - Understanding graph representation
 - Applying BFS and DFS traversal techniques
 - Solving common graph interview problems step by step
-- Learning core weighted graph algorithms
+- Learning weighted graph algorithms and shortest paths
 
 ---
 
@@ -113,7 +113,15 @@ all graph traversal algorithms.
 - Uses a min-heap (priority queue)
 - Greedily selects minimum weight edges
 - Time Complexity: **O(E log V)**
-- Commonly asked in graph and optimization problems
+
+---
+
+### Shortest Path – Bellman Ford Algorithm
+- Works on **weighted directed graphs**
+- Supports **negative edge weights**
+- Detects **negative weight cycles**
+- Relaxes all edges **V−1 times**
+- Time Complexity: **O(V × E)**
 
 ---
 
@@ -130,6 +138,7 @@ all graph traversal algorithms.
 - Topological Sort (DFS)
 - Topological Sort (BFS / Kahn’s Algorithm)
 - Minimum Spanning Tree – Prim’s Algorithm
+- Shortest Path – Bellman Ford Algorithm
 
 ---
 
