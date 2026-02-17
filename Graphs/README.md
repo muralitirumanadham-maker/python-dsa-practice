@@ -83,6 +83,14 @@ all graph traversal algorithms.
 
 ---
 
+### Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
+- Uses indegree array and BFS
+- Based on topological sorting
+- If all nodes are not processed, a cycle exists
+- Efficient and commonly used in course scheduling problems
+
+---
+
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
@@ -92,6 +100,7 @@ all graph traversal algorithms.
 - Detect Cycle in Undirected Graph (BFS)
 - Detect Cycle in Undirected Graph (DFS)
 - Detect Cycle in Directed Graph (DFS)
+- Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
 
 ---
 
