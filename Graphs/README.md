@@ -98,6 +98,14 @@ all graph traversal algorithms.
 
 ---
 
+### Topological Sort (BFS / Kahn’s Algorithm)
+- Uses BFS with indegree array
+- Repeatedly processes nodes with indegree zero
+- Detects cycles in directed graphs
+- Commonly used in scheduling problems
+
+---
+
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
@@ -109,6 +117,7 @@ all graph traversal algorithms.
 - Detect Cycle in Directed Graph (DFS)
 - Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
 - Topological Sort (DFS)
+- Topological Sort (BFS / Kahn’s Algorithm)
 
 ---
 
