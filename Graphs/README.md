@@ -87,7 +87,14 @@ all graph traversal algorithms.
 - Uses indegree array and BFS
 - Based on topological sorting
 - If all nodes are not processed, a cycle exists
-- Efficient and commonly used in course scheduling problems
+
+---
+
+### Topological Sort (DFS)
+- Works on **Directed Acyclic Graphs (DAGs)**
+- Uses DFS and post-order traversal
+- Nodes are added after all dependencies are processed
+- Final order obtained by reversing the stack
 
 ---
 
@@ -101,6 +108,7 @@ all graph traversal algorithms.
 - Detect Cycle in Undirected Graph (DFS)
 - Detect Cycle in Directed Graph (DFS)
 - Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
+- Topological Sort (DFS)
 
 ---
 
