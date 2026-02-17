@@ -7,6 +7,7 @@ The focus is on:
 - Understanding graph representation
 - Applying BFS and DFS traversal techniques
 - Solving common graph interview problems step by step
+- Learning core weighted graph algorithms
 
 ---
 
@@ -15,6 +16,7 @@ The focus is on:
 ### Graph Basics
 - Graph representation using **Adjacency List**
 - Directed and Undirected graphs
+- Weighted and Unweighted graphs
 - Vertex and edge operations
 
 ---
@@ -106,6 +108,15 @@ all graph traversal algorithms.
 
 ---
 
+### Minimum Spanning Tree – Prim’s Algorithm
+- Works on **weighted undirected graphs**
+- Uses a min-heap (priority queue)
+- Greedily selects minimum weight edges
+- Time Complexity: **O(E log V)**
+- Commonly asked in graph and optimization problems
+
+---
+
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
@@ -118,6 +129,7 @@ all graph traversal algorithms.
 - Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
 - Topological Sort (DFS)
 - Topological Sort (BFS / Kahn’s Algorithm)
+- Minimum Spanning Tree – Prim’s Algorithm
 
 ---
 
