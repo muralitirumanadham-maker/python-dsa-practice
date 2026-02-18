@@ -7,7 +7,7 @@ The focus is on:
 - Understanding graph representation
 - Applying BFS and DFS traversal techniques
 - Solving common graph interview problems step by step
-- Learning weighted graph algorithms and shortest paths
+- Learning weighted graph algorithms and all-pairs reachability
 
 ---
 
@@ -15,6 +15,7 @@ The focus is on:
 
 ### Graph Basics
 - Graph representation using **Adjacency List**
+- Graph representation using **Adjacency Matrix**
 - Directed and Undirected graphs
 - Weighted and Unweighted graphs
 - Vertex and edge operations
@@ -125,6 +126,15 @@ all graph traversal algorithms.
 
 ---
 
+### Transitive Closure – Warshall’s Algorithm
+- Works on **directed graphs**
+- Uses **adjacency matrix**
+- Finds reachability between **all pairs of vertices**
+- Time Complexity: **O(V³)**
+- Used to answer path-existence queries
+
+---
+
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
@@ -139,6 +149,7 @@ all graph traversal algorithms.
 - Topological Sort (BFS / Kahn’s Algorithm)
 - Minimum Spanning Tree – Prim’s Algorithm
 - Shortest Path – Bellman Ford Algorithm
+- Transitive Closure – Warshall’s Algorithm
 
 ---
 
