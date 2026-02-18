@@ -1,176 +1,73 @@
-# Graphs
+# python-dsa-practice
 
-This folder contains Python implementations of **Graph Data Structures and Algorithms**
-commonly asked in technical interviews.
+This repository contains **Python implementations of Data Structures and Algorithms**
+for technical interview preparation.
 
-The focus is on:
-- Understanding graph representation
-- Applying BFS and DFS traversal techniques
-- Solving common graph interview problems step by step
-- Learning weighted graph algorithms and shortest paths
+Each topic is organized into separate folders with clean,
+readable, and interview-focused solutions.
 
 ---
 
-## Concepts Covered
+## Topics Covered
 
-### Graph Basics
-- Graph representation using **Adjacency List**
-- Graph representation using **Adjacency Matrix**
-- Directed and Undirected graphs
-- Weighted and Unweighted graphs
-- Vertex and edge operations
+### 1. Linked Lists
+- Singly Linked List
+- Doubly Linked List
 
 ---
 
-## Implementations
-
-### 1. Graph Representation (Adjacency List)
-- Undirected graph implementation
-- Add vertex
-- Add edge
-- Remove edge
-- Remove vertex
-- Print graph structure
-
-This implementation forms the foundation for
-all graph traversal algorithms.
+### 2. Stacks
+- Stack implementation
+- Monotonic stack problems
+- Stack-based interview questions
 
 ---
 
-### 2. Breadth First Search (BFS)
-- BFS traversal using a queue (`deque`)
-- Uses `visited` set to avoid revisiting nodes
-- Traverses graph level by level
-- Time Complexity: **O(V + E)**
+### 3. Queues
+- Queue implementation
+- BFS-based problems
+- Simulation problems (e.g., Rotting Oranges)
 
 ---
 
-### 3. Depth First Search (DFS)
-- Recursive DFS traversal
-- Uses `visited` list / set to track visited nodes
-- Explores one branch fully before backtracking
-- Time Complexity: **O(V + E)**
+### 4. Hash Tables
+- Hash Maps
+- Hash Sets
+- Frequency-based problems
+- Two Sum and Subarray Sum patterns
+- Anagram grouping
+- Set-based optimizations
 
 ---
 
-## Graph-Based Interview Problems
-
-### Flood Fill (DFS on Grid)
-- DFS traversal on a 2D grid
-- Each cell treated as a graph node
-- 4-directional adjacency (up, down, left, right)
-- Prevents infinite recursion using base conditions
+### 5. Trees
+- Binary Tree
+- Binary Search Tree (BST)
+- Tree traversals and operations
 
 ---
 
-### Detect Cycle in Undirected Graph (BFS)
-- Uses Breadth First Search (BFS)
-- Maintains parent information
-- Detects cycles in disconnected graphs
-
----
-
-### Detect Cycle in Undirected Graph (DFS)
-- Uses Depth First Search (DFS)
-- Tracks parent node during recursion
-- A cycle exists if a visited neighbor is not the parent
-- Works for disconnected graphs
-
----
-
-### Detect Cycle in Directed Graph (DFS)
-- Uses Depth First Search (DFS)
-- Maintains a recursion stack
-- A cycle exists if a node is revisited in the current DFS path
-- Works for disconnected directed graphs
-
----
-
-### Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
-- Uses indegree array and BFS
-- Based on topological sorting
-- If all nodes are not processed, a cycle exists
-
----
-
-### Topological Sort (DFS)
-- Works on **Directed Acyclic Graphs (DAGs)**
-- Uses DFS and post-order traversal
-- Nodes are added after all dependencies are processed
-- Final order obtained by reversing the stack
-
----
-
-### Topological Sort (BFS / Kahn’s Algorithm)
-- Uses BFS with indegree array
-- Repeatedly processes nodes with indegree zero
-- Detects cycles in directed graphs
-- Commonly used in scheduling problems
-
----
-
-### Minimum Spanning Tree – Prim’s Algorithm
-- Works on **weighted undirected graphs**
-- Uses a min-heap (priority queue)
-- Greedily selects minimum weight edges
-- Time Complexity: **O(E log V)**
-
----
-
-### Shortest Path – Bellman Ford Algorithm
-- Works on **weighted directed graphs**
-- Supports **negative edge weights**
-- Detects **negative weight cycles**
-- Relaxes all edges **V−1 times**
-- Time Complexity: **O(V × E)**
-
----
-
-### Transitive Closure – Warshall’s Algorithm
-- Works on **directed graphs**
-- Uses **adjacency matrix**
-- Finds reachability between **all pairs of vertices**
-- Time Complexity: **O(V³)**
-
----
-
-### All Pairs Shortest Path – Floyd Warshall Algorithm
-- Computes shortest paths between **all pairs of vertices**
-- Uses dynamic programming
-- Works with **negative edge weights**
-- Does not support negative cycles
-- Time Complexity: **O(V³)**
-
----
-
-## Interview Problems (Implemented)
-
-- Graph Representation using Adjacency List
-- Breadth First Search (BFS)
-- Depth First Search (DFS)
-- Flood Fill (DFS on Grid)
-- Detect Cycle in Undirected Graph (BFS)
-- Detect Cycle in Undirected Graph (DFS)
-- Detect Cycle in Directed Graph (DFS)
-- Detect Cycle in Directed Graph (BFS / Kahn’s Algorithm)
-- Topological Sort (DFS)
-- Topological Sort (BFS / Kahn’s Algorithm)
-- Minimum Spanning Tree – Prim’s Algorithm
-- Shortest Path – Bellman Ford Algorithm
-- Transitive Closure – Warshall’s Algorithm
-- All Pairs Shortest Path – Floyd Warshall Algorithm
+### 6. Graphs
+- Graph representation (Adjacency List & Matrix)
+- BFS and DFS traversals
+- Cycle detection (Directed & Undirected)
+- Topological Sort (DFS & BFS)
+- Minimum Spanning Tree (Prim’s Algorithm)
+- Shortest Path Algorithms:
+  - Bellman–Ford
+  - Floyd–Warshall
+- Reachability (Warshall’s Algorithm)
+- Strongly Connected Components (Kosaraju’s Algorithm)
 
 ---
 
 ## Language Used
-
 - Python
 
 ---
 
-## Status
+## Goal
 
-🚀 **In Progress**
-
-Graph algorithms are being added incrementally with clean,
-readable, and interview-focused implementations.
+The goal of this repository is to build **strong DSA fundamentals**
+and prepare for **technical interviews at product-based companies**
+through consistent practice and clean implementations.
