@@ -7,7 +7,7 @@ The focus is on:
 - Understanding graph representation
 - Applying BFS and DFS traversal techniques
 - Solving common graph interview problems step by step
-- Learning weighted graph algorithms and shortest paths
+- Learning weighted graph algorithms, shortest paths, and connectivity concepts
 
 ---
 
@@ -143,6 +143,15 @@ all graph traversal algorithms.
 
 ---
 
+### Strongly Connected Components – Kosaraju’s Algorithm
+- Works on **directed graphs**
+- Uses two DFS traversals
+- Second DFS runs on the transposed graph
+- Identifies strongly connected components
+- Time Complexity: **O(V + E)**
+
+---
+
 ## Interview Problems (Implemented)
 
 - Graph Representation using Adjacency List
@@ -159,6 +168,7 @@ all graph traversal algorithms.
 - Shortest Path – Bellman Ford Algorithm
 - Transitive Closure – Warshall’s Algorithm
 - All Pairs Shortest Path – Floyd Warshall Algorithm
+- Strongly Connected Components – Kosaraju’s Algorithm
 
 ---
 
