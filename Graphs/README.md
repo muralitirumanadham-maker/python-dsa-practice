@@ -32,12 +32,18 @@ clean traversal patterns, and commonly asked interview problems.
 
 ---
 
-## Graph-Based Interview Problems
+## Grid-Based Graph Problems
 
-### Flood Fill (DFS on Grid)
-- DFS traversal on 2D grid
+### Flood Fill
+- DFS traversal on a 2D grid
 - 4-directional adjacency
 - Grid treated as a graph
+
+### Number of Islands
+- DFS-based connected component counting
+- Each island is a connected group of land cells
+- Grid treated as an implicit graph
+- Time Complexity: **O(R × C)**
 
 ---
 
@@ -57,7 +63,7 @@ clean traversal patterns, and commonly asked interview problems.
 
 ### DFS-based Topological Sort
 - Post-order DFS
-- Works on DAGs
+- Works on Directed Acyclic Graphs (DAGs)
 
 ### BFS-based Topological Sort (Kahn’s Algorithm)
 - Uses indegree array
@@ -112,32 +118,4 @@ clean traversal patterns, and commonly asked interview problems.
 - Strongly Connected Components (SCC)
 - Two DFS passes
 - Works on directed graphs
-- Time Complexity: **O(V + E)**
-
----
-
-## Interview Problems Implemented
-
-- Graph Representation (Adjacency List)
-- BFS Traversal
-- DFS Traversal
-- Flood Fill
-- Cycle Detection (Undirected & Directed)
-- Topological Sort (DFS & BFS)
-- Bipartite Graph Check
-- Minimum Spanning Tree (Prim’s)
-- Shortest Path (Bellman–Ford)
-- All-Pairs Shortest Path (Floyd–Warshall)
-- Transitive Closure (Warshall)
-- Strongly Connected Components (Kosaraju)
-
----
-
-## Language Used
-- Python
-
----
-
-## Status
-
-✅ **Graphs module completed with core and advanced algorithms**
+- Time
