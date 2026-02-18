@@ -7,7 +7,7 @@ The focus is on:
 - Understanding graph representation
 - Applying BFS and DFS traversal techniques
 - Solving common graph interview problems step by step
-- Learning weighted graph algorithms and all-pairs reachability
+- Learning weighted graph algorithms and shortest paths
 
 ---
 
@@ -131,7 +131,15 @@ all graph traversal algorithms.
 - Uses **adjacency matrix**
 - Finds reachability between **all pairs of vertices**
 - Time Complexity: **O(V³)**
-- Used to answer path-existence queries
+
+---
+
+### All Pairs Shortest Path – Floyd Warshall Algorithm
+- Computes shortest paths between **all pairs of vertices**
+- Uses dynamic programming
+- Works with **negative edge weights**
+- Does not support negative cycles
+- Time Complexity: **O(V³)**
 
 ---
 
@@ -150,6 +158,7 @@ all graph traversal algorithms.
 - Minimum Spanning Tree – Prim’s Algorithm
 - Shortest Path – Bellman Ford Algorithm
 - Transitive Closure – Warshall’s Algorithm
+- All Pairs Shortest Path – Floyd Warshall Algorithm
 
 ---
 
