@@ -1,0 +1,48 @@
+from collections import deque, defaultdict
+
+def alienOrder(words):
+    graph = defaultdict(set)
+    indegree = {}
+
+    for word in words:
+        for ch in word:
+            indegree[ch] = 0
+
+    for i in range(len(words) - 1):
+        w1 = words[i]
+        w2 = words[i + 1]
+
+        if len(w1) > len(w2) and w1.startswith(w2):
+            return ""
+
+        for j in range(min(len(w1), len(w2))):
+            if w1[j] != w2[j]:
+                if w2[j] not in graph[w1[j]]:
+                    graph[w1[j]].add(w2[j])
+                    indegree[w2[j]] += 1
+                break
+
+    queue = deque()
+    for ch in indegree:
+        if indegree[ch] == 0:
+            queue.append(ch)
+
+    result = []
+
+    while queue:
+        node = queue.popleft()
+        result.append(node)
+
+        for neighbor in graph[node]:
+            indegree[neighbor] -= 1
+            if indegree[neighbor] == 0:
+                queue.append(neighbor)
+
+    if len(result) != len(indegree):
+        return ""
+
+    return "".join(result)
+
+# Example Test Case
+words = ["wrt","wrf","er","ett","rftt"]
+print(alienOrder(words))
