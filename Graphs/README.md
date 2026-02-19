@@ -89,6 +89,22 @@ clean traversal patterns, and frequently asked interview problems.
 
 ---
 
+## Interview-Level Problems
+
+### Course Schedule (LeetCode 207)
+- Detects if all courses can be completed
+- Reduces to cycle detection in directed graph
+- Implemented using DFS with recursion stack
+- Time Complexity: **O(V + E)**
+
+### Course Schedule II (LeetCode 210)
+- Returns valid course ordering
+- Uses DFS-based topological sort
+- Returns empty list if cycle exists
+- Time Complexity: **O(V + E)**
+
+---
+
 ## Minimum Spanning Tree
 
 ### Prim’s Algorithm
@@ -131,16 +147,6 @@ clean traversal patterns, and frequently asked interview problems.
 
 ---
 
-## Interview-Level Problems
-
-### Course Schedule
-- Detects if all courses can be completed
-- Reduces to cycle detection in directed graph
-- Implemented using DFS with recursion stack
-- Time Complexity: **O(V + E)**
-
----
-
 ## Interview Problems Implemented
 
 - Graph Representation (Adjacency List)
@@ -154,6 +160,7 @@ clean traversal patterns, and frequently asked interview problems.
 - Topological Sort (DFS & BFS)
 - Bipartite Graph Check
 - Course Schedule (DFS)
+- Course Schedule II (DFS)
 - Minimum Spanning Tree (Prim’s Algorithm)
 - Shortest Path (Bellman–Ford Algorithm)
 - All-Pairs Shortest Path (Floyd–Warshall Algorithm)
