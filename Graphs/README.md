@@ -37,21 +37,18 @@ clean traversal patterns, and frequently asked interview problems.
 ### Flood Fill
 - DFS traversal on a 2D grid
 - 4-directional adjacency
-- Grid treated as a graph
 
 ### Number of Islands
 - DFS-based connected component counting
-- Each island is a connected group of land cells
 - Time Complexity: **O(R × C)**
 
 ### Rotting Oranges
-- Multi-source BFS on grid
-- Computes minimum time to rot all oranges
+- Multi-source BFS
 - Time Complexity: **O(R × C)**
 
 ### 01 Matrix
 - Multi-source BFS
-- Computes minimum distance to nearest zero
+- Computes distance to nearest zero
 - Time Complexity: **O(R × C)**
 
 ---
@@ -59,7 +56,7 @@ clean traversal patterns, and frequently asked interview problems.
 ## Cycle Detection
 
 ### Undirected Graph
-- BFS-based cycle detection (parent tracking)
+- BFS-based cycle detection
 - DFS-based cycle detection
 
 ### Directed Graph
@@ -72,11 +69,27 @@ clean traversal patterns, and frequently asked interview problems.
 
 ### DFS-based Topological Sort
 - Post-order DFS
-- Works on Directed Acyclic Graphs (DAGs)
+- Works on DAGs
 
 ### BFS-based Topological Sort (Kahn’s Algorithm)
 - Uses indegree array
-- Detects cycles in directed graphs
+- Detects cycles
+
+---
+
+## Advanced Topological Problems
+
+### Course Schedule (LeetCode 207)
+- Detect cycle in directed graph
+
+### Course Schedule II (LeetCode 210)
+- Return valid topological ordering
+
+### Alien Dictionary (LeetCode 269)
+- Derives character ordering from sorted words
+- Builds graph from word comparisons
+- Uses BFS-based topological sorting
+- Detects invalid prefix and cycles
 
 ---
 
@@ -84,24 +97,7 @@ clean traversal patterns, and frequently asked interview problems.
 
 ### Bipartite Graph Check
 - BFS-based two-coloring
-- Works for disconnected graphs
 - Detects odd-length cycles
-
----
-
-## Interview-Level Problems
-
-### Course Schedule (LeetCode 207)
-- Detects if all courses can be completed
-- Reduces to cycle detection in directed graph
-- Implemented using DFS with recursion stack
-- Time Complexity: **O(V + E)**
-
-### Course Schedule II (LeetCode 210)
-- Returns valid course ordering
-- Uses DFS-based topological sort
-- Returns empty list if cycle exists
-- Time Complexity: **O(V + E)**
 
 ---
 
@@ -109,7 +105,7 @@ clean traversal patterns, and frequently asked interview problems.
 
 ### Prim’s Algorithm
 - Weighted undirected graphs
-- Greedy approach using min-heap
+- Min-heap based greedy approach
 - Time Complexity: **O(E log V)**
 
 ---
@@ -117,22 +113,22 @@ clean traversal patterns, and frequently asked interview problems.
 ## Shortest Path Algorithms
 
 ### Bellman–Ford Algorithm
-- Supports negative edge weights
+- Handles negative edge weights
 - Detects negative cycles
 - Time Complexity: **O(V × E)**
 
 ### Floyd–Warshall Algorithm
 - All-pairs shortest path
-- Dynamic programming approach
+- Dynamic programming
 - Time Complexity: **O(V³)**
 
 ---
 
 ## Reachability
 
-### Warshall’s Algorithm (Transitive Closure)
-- Determines reachability for all vertex pairs
-- Uses adjacency matrix
+### Warshall’s Algorithm
+- Transitive closure
+- Determines reachability between all pairs
 - Time Complexity: **O(V³)**
 
 ---
@@ -142,30 +138,29 @@ clean traversal patterns, and frequently asked interview problems.
 ### Kosaraju’s Algorithm
 - Strongly Connected Components (SCC)
 - Two DFS passes
-- Works on directed graphs
 - Time Complexity: **O(V + E)**
 
 ---
 
 ## Interview Problems Implemented
 
-- Graph Representation (Adjacency List)
+- Graph Representation
 - BFS Traversal
 - DFS Traversal
 - Flood Fill
 - Number of Islands
 - Rotting Oranges
 - 01 Matrix
-- Cycle Detection (Undirected & Directed)
+- Cycle Detection (Directed & Undirected)
 - Topological Sort (DFS & BFS)
+- Course Schedule I & II
+- Alien Dictionary
 - Bipartite Graph Check
-- Course Schedule (DFS)
-- Course Schedule II (DFS)
-- Minimum Spanning Tree (Prim’s Algorithm)
-- Shortest Path (Bellman–Ford Algorithm)
-- All-Pairs Shortest Path (Floyd–Warshall Algorithm)
-- Transitive Closure (Warshall’s Algorithm)
-- Strongly Connected Components (Kosaraju’s Algorithm)
+- Minimum Spanning Tree (Prim’s)
+- Bellman–Ford
+- Floyd–Warshall
+- Warshall (Transitive Closure)
+- Kosaraju (SCC)
 
 ---
 
@@ -176,4 +171,4 @@ clean traversal patterns, and frequently asked interview problems.
 
 ## Status
 
-✅ Graphs module completed with comprehensive interview coverage
+✅ Graphs module completed with advanced interview-level coverage
