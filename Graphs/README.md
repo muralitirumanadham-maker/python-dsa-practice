@@ -52,7 +52,6 @@ clean traversal patterns, and frequently asked interview problems.
 ### 01 Matrix
 - Multi-source BFS
 - Computes minimum distance to nearest zero
-- Distance-based grid traversal
 - Time Complexity: **O(R × C)**
 
 ---
@@ -132,6 +131,16 @@ clean traversal patterns, and frequently asked interview problems.
 
 ---
 
+## Interview-Level Problems
+
+### Course Schedule
+- Detects if all courses can be completed
+- Reduces to cycle detection in directed graph
+- Implemented using DFS with recursion stack
+- Time Complexity: **O(V + E)**
+
+---
+
 ## Interview Problems Implemented
 
 - Graph Representation (Adjacency List)
@@ -144,6 +153,7 @@ clean traversal patterns, and frequently asked interview problems.
 - Cycle Detection (Undirected & Directed)
 - Topological Sort (DFS & BFS)
 - Bipartite Graph Check
+- Course Schedule (DFS)
 - Minimum Spanning Tree (Prim’s Algorithm)
 - Shortest Path (Bellman–Ford Algorithm)
 - All-Pairs Shortest Path (Floyd–Warshall Algorithm)
