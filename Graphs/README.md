@@ -11,8 +11,8 @@ clean traversal patterns, and frequently asked interview problems.
 ## Concepts Covered
 
 ### Graph Basics
-- Graph representation using **Adjacency List**
-- Graph representation using **Adjacency Matrix**
+- Graph representation using Adjacency List
+- Graph representation using Adjacency Matrix
 - Directed and Undirected graphs
 - Weighted and Unweighted graphs
 
@@ -22,105 +22,95 @@ clean traversal patterns, and frequently asked interview problems.
 
 ### Breadth First Search (BFS)
 - Queue-based traversal
-- Uses visited tracking
-- Time Complexity: **O(V + E)**
+- Time Complexity: O(V + E)
 
 ### Depth First Search (DFS)
 - Recursive traversal
-- Uses visited list / set
-- Time Complexity: **O(V + E)**
+- Time Complexity: O(V + E)
 
 ---
 
 ## Grid-Based Graph Problems
 
 ### Flood Fill
-- DFS traversal on a 2D grid
-- 4-directional adjacency
+- DFS on grid
 
 ### Number of Islands
-- DFS-based connected component counting
-- Time Complexity: **O(R × C)**
+- DFS connected components
 
 ### Rotting Oranges
 - Multi-source BFS
-- Time Complexity: **O(R × C)**
 
 ### 01 Matrix
-- Multi-source BFS
-- Computes distance to nearest zero
-- Time Complexity: **O(R × C)**
+- Multi-source BFS shortest distance
 
 ---
 
 ## Cycle Detection
 
 ### Undirected Graph
-- BFS-based cycle detection
-- DFS-based cycle detection
+- BFS parent tracking
+- DFS parent tracking
 
 ### Directed Graph
-- DFS-based cycle detection (recursion stack)
-- BFS-based cycle detection (Kahn’s Algorithm)
+- DFS recursion stack
+- Kahn’s Algorithm (BFS)
 
 ---
 
 ## Topological Sorting
 
 ### DFS-based Topological Sort
-- Post-order DFS
-- Works on DAGs
+- Postorder DFS
 
-### BFS-based Topological Sort (Kahn’s Algorithm)
-- Uses indegree array
-- Detects cycles
+### BFS-based Topological Sort
+- Kahn’s Algorithm
 
 ---
 
 ## Advanced Topological Problems
 
-### Course Schedule (LeetCode 207)
+### Course Schedule I
 - Detect cycle in directed graph
 
-### Course Schedule II (LeetCode 210)
-- Return valid topological ordering
+### Course Schedule II
+- Return valid ordering
 
-### Alien Dictionary (LeetCode 269)
-- Derives character ordering from sorted words
-- Builds graph from word comparisons
-- Uses BFS-based topological sorting
-- Detects invalid prefix and cycles
+### Alien Dictionary
+- Character ordering using topo sort
 
 ---
 
 ## Graph Coloring
 
 ### Bipartite Graph Check
-- BFS-based two-coloring
-- Detects odd-length cycles
+- BFS two coloring
 
 ---
 
 ## Minimum Spanning Tree
 
 ### Prim’s Algorithm
-- Weighted undirected graphs
-- Min-heap based greedy approach
-- Time Complexity: **O(E log V)**
+- Min heap greedy MST
+- Time Complexity: O(E log V)
 
 ---
 
 ## Shortest Path Algorithms
 
 ### Bellman–Ford Algorithm
-- Handles negative edge weights
+- Handles negative weights
 - Detects negative cycles
-- Time Complexity: **O(V × E)**
+- Time Complexity: O(V × E)
+
+### Cheapest Flights Within K Stops
+- Bellman Ford variation
+- Limited edge relaxation
+- Time Complexity: O(K × E)
 
 ### Floyd–Warshall Algorithm
-- All-pairs shortest path
-- Dynamic programming
-- Time Complexity: **O(V³)**
+- All pairs shortest path
+- Time Complexity: O(V³)
 
 ---
 
@@ -128,17 +118,13 @@ clean traversal patterns, and frequently asked interview problems.
 
 ### Warshall’s Algorithm
 - Transitive closure
-- Determines reachability between all pairs
-- Time Complexity: **O(V³)**
 
 ---
 
 ## Strong Connectivity
 
 ### Kosaraju’s Algorithm
-- Strongly Connected Components (SCC)
-- Two DFS passes
-- Time Complexity: **O(V + E)**
+- Strongly Connected Components
 
 ---
 
@@ -156,19 +142,20 @@ clean traversal patterns, and frequently asked interview problems.
 - Course Schedule I & II
 - Alien Dictionary
 - Bipartite Graph Check
-- Minimum Spanning Tree (Prim’s)
-- Bellman–Ford
-- Floyd–Warshall
-- Warshall (Transitive Closure)
-- Kosaraju (SCC)
+- Prim’s Minimum Spanning Tree
+- Bellman Ford Shortest Path
+- Cheapest Flights Within K Stops
+- Floyd Warshall
+- Warshall Transitive Closure
+- Kosaraju SCC
 
 ---
 
 ## Language Used
-- Python
+Python
 
 ---
 
 ## Status
 
-✅ Graphs module completed with advanced interview-level coverage
+✅ Graphs module completed with advanced interview-level coverage.
