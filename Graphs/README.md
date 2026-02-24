@@ -30,6 +30,15 @@ clean traversal patterns, and frequently asked interview problems.
 
 ---
 
+## Connected Components
+
+### Number of Provinces (LeetCode 547)
+- DFS traversal on adjacency matrix
+- Counts connected components
+- Time Complexity: O(N²)
+
+---
+
 ## Graph Construction
 
 ### Clone Graph (LeetCode 133)
@@ -121,10 +130,8 @@ clean traversal patterns, and frequently asked interview problems.
 ## Disjoint Set Union (Union Find)
 
 ### Remove Stones (LeetCode 947)
-- Uses DSU for connectivity
-- Rows and columns treated as nodes
-- Counts connected components
-- Path compression optimization
+- Connectivity using DSU
+- Path compression
 
 ---
 
@@ -133,6 +140,7 @@ clean traversal patterns, and frequently asked interview problems.
 - Graph Representation
 - BFS Traversal
 - DFS Traversal
+- Number of Provinces
 - Clone Graph
 - Flood Fill
 - Number of Islands
