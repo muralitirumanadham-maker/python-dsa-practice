@@ -30,6 +30,16 @@ clean traversal patterns, and frequently asked interview problems.
 
 ---
 
+## Graph Construction Problems
+
+### Clone Graph (LeetCode 133)
+- Deep copy of graph structure
+- BFS traversal with hashmap mapping
+- Preserves adjacency relationships
+- Time Complexity: O(V + E)
+
+---
+
 ## Grid-Based Graph Problems
 
 ### Flood Fill
@@ -91,7 +101,7 @@ clean traversal patterns, and frequently asked interview problems.
 ## Minimum Spanning Tree
 
 ### Prim’s Algorithm
-- Min heap greedy MST
+- Greedy MST using min heap
 - Time Complexity: O(E log V)
 
 ---
@@ -101,16 +111,12 @@ clean traversal patterns, and frequently asked interview problems.
 ### Bellman–Ford Algorithm
 - Handles negative weights
 - Detects negative cycles
-- Time Complexity: O(V × E)
 
 ### Cheapest Flights Within K Stops
 - Bellman Ford variation
-- Limited edge relaxation
-- Time Complexity: O(K × E)
 
 ### Floyd–Warshall Algorithm
 - All pairs shortest path
-- Time Complexity: O(V³)
 
 ---
 
@@ -133,6 +139,7 @@ clean traversal patterns, and frequently asked interview problems.
 - Graph Representation
 - BFS Traversal
 - DFS Traversal
+- Clone Graph
 - Flood Fill
 - Number of Islands
 - Rotting Oranges
@@ -142,8 +149,8 @@ clean traversal patterns, and frequently asked interview problems.
 - Course Schedule I & II
 - Alien Dictionary
 - Bipartite Graph Check
-- Prim’s Minimum Spanning Tree
-- Bellman Ford Shortest Path
+- Prim’s MST
+- Bellman Ford
 - Cheapest Flights Within K Stops
 - Floyd Warshall
 - Warshall Transitive Closure
