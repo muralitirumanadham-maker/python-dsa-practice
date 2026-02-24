@@ -11,8 +11,8 @@ clean traversal patterns, and frequently asked interview problems.
 ## Concepts Covered
 
 ### Graph Basics
-- Graph representation using Adjacency List
-- Graph representation using Adjacency Matrix
+- Adjacency List
+- Adjacency Matrix
 - Directed and Undirected graphs
 - Weighted and Unweighted graphs
 
@@ -30,13 +30,11 @@ clean traversal patterns, and frequently asked interview problems.
 
 ---
 
-## Graph Construction Problems
+## Graph Construction
 
 ### Clone Graph (LeetCode 133)
-- Deep copy of graph structure
-- BFS traversal with hashmap mapping
-- Preserves adjacency relationships
-- Time Complexity: O(V + E)
+- Deep copy graph using BFS
+- Hashmap mapping
 
 ---
 
@@ -52,7 +50,7 @@ clean traversal patterns, and frequently asked interview problems.
 - Multi-source BFS
 
 ### 01 Matrix
-- Multi-source BFS shortest distance
+- Distance to nearest zero using BFS
 
 ---
 
@@ -64,73 +62,69 @@ clean traversal patterns, and frequently asked interview problems.
 
 ### Directed Graph
 - DFS recursion stack
-- Kahn’s Algorithm (BFS)
+- Kahn’s Algorithm
 
 ---
 
 ## Topological Sorting
 
-### DFS-based Topological Sort
-- Postorder DFS
+### DFS Topological Sort
 
-### BFS-based Topological Sort
-- Kahn’s Algorithm
+### BFS Topological Sort (Kahn’s Algorithm)
 
 ---
 
 ## Advanced Topological Problems
 
 ### Course Schedule I
-- Detect cycle in directed graph
 
 ### Course Schedule II
-- Return valid ordering
 
 ### Alien Dictionary
-- Character ordering using topo sort
 
 ---
 
 ## Graph Coloring
 
 ### Bipartite Graph Check
-- BFS two coloring
 
 ---
 
 ## Minimum Spanning Tree
 
 ### Prim’s Algorithm
-- Greedy MST using min heap
-- Time Complexity: O(E log V)
 
 ---
 
 ## Shortest Path Algorithms
 
-### Bellman–Ford Algorithm
-- Handles negative weights
-- Detects negative cycles
+### Bellman Ford
 
 ### Cheapest Flights Within K Stops
-- Bellman Ford variation
 
-### Floyd–Warshall Algorithm
-- All pairs shortest path
+### Floyd Warshall
 
 ---
 
 ## Reachability
 
-### Warshall’s Algorithm
-- Transitive closure
+### Warshall Transitive Closure
 
 ---
 
 ## Strong Connectivity
 
-### Kosaraju’s Algorithm
-- Strongly Connected Components
+### Kosaraju SCC
+
+---
+
+## Disjoint Set Union (Union Find)
+
+### Remove Stones (LeetCode 947)
+- Uses DSU for connectivity
+- Rows and columns treated as nodes
+- Counts connected components
+- Path compression optimization
 
 ---
 
@@ -155,6 +149,7 @@ clean traversal patterns, and frequently asked interview problems.
 - Floyd Warshall
 - Warshall Transitive Closure
 - Kosaraju SCC
+- Remove Stones (Union Find)
 
 ---
 
