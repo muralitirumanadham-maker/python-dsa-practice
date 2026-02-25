@@ -1,10 +1,10 @@
 # Graphs
 
-This folder contains Python implementations of **Graph Data Structures and Algorithms**
+This folder contains Python implementations of Graph Data Structures and Algorithms
 commonly asked in technical interviews.
 
 The implementations focus on strong fundamentals,
-clean traversal patterns, and frequently asked interview problems.
+clean traversal patterns, and interview-level problem solving.
 
 ---
 
@@ -21,53 +21,38 @@ clean traversal patterns, and frequently asked interview problems.
 ## Core Traversals
 
 ### Breadth First Search (BFS)
-- Queue-based traversal
-- Time Complexity: O(V + E)
 
 ### Depth First Search (DFS)
-- Recursive traversal
-- Time Complexity: O(V + E)
 
 ---
 
 ## Connected Components
 
-### Number of Provinces (LeetCode 547)
-- DFS traversal on adjacency matrix
-- Counts connected components
-- Time Complexity: O(N²)
+### Number of Provinces
+- DFS on adjacency matrix
 
 ---
 
 ## Graph Construction
 
-### Clone Graph (LeetCode 133)
-- Deep copy graph using BFS
-- Hashmap mapping
+### Clone Graph
 
 ---
 
-## Grid-Based Graph Problems
+## Grid-Based Problems
 
-### Flood Fill
-- DFS on grid
-
-### Number of Islands
-- DFS connected components
-
-### Rotting Oranges
-- Multi-source BFS
-
-### 01 Matrix
-- Distance to nearest zero using BFS
+- Flood Fill
+- Number of Islands
+- Rotting Oranges
+- 01 Matrix
 
 ---
 
 ## Cycle Detection
 
 ### Undirected Graph
-- BFS parent tracking
-- DFS parent tracking
+- BFS
+- DFS
 
 ### Directed Graph
 - DFS recursion stack
@@ -77,19 +62,16 @@ clean traversal patterns, and frequently asked interview problems.
 
 ## Topological Sorting
 
-### DFS Topological Sort
-
-### BFS Topological Sort (Kahn’s Algorithm)
+- DFS Topological Sort
+- BFS Topological Sort
 
 ---
 
 ## Advanced Topological Problems
 
-### Course Schedule I
-
-### Course Schedule II
-
-### Alien Dictionary
+- Course Schedule I
+- Course Schedule II
+- Alien Dictionary
 
 ---
 
@@ -106,6 +88,10 @@ clean traversal patterns, and frequently asked interview problems.
 ---
 
 ## Shortest Path Algorithms
+
+### Dijkstra Algorithm ⭐
+- Min heap based shortest path
+- Time Complexity: O(E log V)
 
 ### Bellman Ford
 
@@ -129,9 +115,7 @@ clean traversal patterns, and frequently asked interview problems.
 
 ## Disjoint Set Union (Union Find)
 
-### Remove Stones (LeetCode 947)
-- Connectivity using DSU
-- Path compression
+### Remove Stones
 
 ---
 
@@ -146,18 +130,19 @@ clean traversal patterns, and frequently asked interview problems.
 - Number of Islands
 - Rotting Oranges
 - 01 Matrix
-- Cycle Detection (Directed & Undirected)
-- Topological Sort (DFS & BFS)
+- Cycle Detection
+- Topological Sort
 - Course Schedule I & II
 - Alien Dictionary
-- Bipartite Graph Check
+- Bipartite Graph
 - Prim’s MST
+- Dijkstra Shortest Path ⭐
 - Bellman Ford
 - Cheapest Flights Within K Stops
 - Floyd Warshall
 - Warshall Transitive Closure
 - Kosaraju SCC
-- Remove Stones (Union Find)
+- Remove Stones DSU
 
 ---
 
@@ -168,4 +153,4 @@ Python
 
 ## Status
 
-✅ Graphs module completed with advanced interview-level coverage.
+✅ Graphs module completed with comprehensive interview-level coverage.
