@@ -1,63 +1,75 @@
 # python-dsa-practice
 
-This repository contains **Python implementations of Data Structures and Algorithms**
-for technical interview preparation.
+This repository contains clean and well-structured **Python implementations of Data Structures and Algorithms** for technical interview preparation.
 
-Each topic is organized into separate folders with clean,
-readable, and interview-focused solutions.
+Each topic is organized into separate folders with readable, interview-focused solutions and commonly asked problems.
 
 ---
 
 ## Topics Covered
 
-### 1. Linked Lists
+### 1️⃣ Linked Lists
 - Singly Linked List
 - Doubly Linked List
+- LRU Cache implementation
 
 ---
 
-### 2. Stacks
+### 2️⃣ Stacks
 - Stack implementation
-- Monotonic stack problems
-- Stack-based interview questions
+- Monotonic Stack pattern
+- Design-based stack problems
 
 ---
 
-### 3. Queues
+### 3️⃣ Queues
 - Queue implementation
 - BFS-based problems
 - Simulation problems (e.g., Rotting Oranges)
 
 ---
 
-### 4. Hash Tables
-- Hash Maps
-- Hash Sets
+### 4️⃣ Hash Tables
+- Hash Maps & Hash Sets
 - Frequency-based problems
-- Two Sum and Subarray Sum patterns
+- Two Sum & Subarray Sum patterns
 - Anagram grouping
 - Set-based optimizations
 
 ---
 
-### 5. Trees
+### 5️⃣ Trees
 - Binary Tree
 - Binary Search Tree (BST)
-- Tree traversals and operations
+- Tree traversals (DFS, BFS)
+- Basic tree operations
 
 ---
 
-### 6. Graphs
-- Graph representation (Adjacency List & Matrix)
-- BFS and DFS traversals
-- Cycle detection (Directed & Undirected)
-- Topological Sort (DFS & BFS)
-- Minimum Spanning Tree (Prim’s Algorithm)
+### 6️⃣ Graphs (Complete Module)
+
+- Graph Representation (Adjacency List & Matrix)
+- BFS & DFS Traversals
+- Connected Components
+- Cycle Detection (Directed & Undirected)
+- Topological Sorting (DFS & Kahn’s Algorithm)
+- Bipartite Graph Check
+- Strongly Connected Components (Kosaraju)
+- Minimum Spanning Tree:
+  - Prim’s Algorithm
+  - Kruskal’s Algorithm
 - Shortest Path Algorithms:
+  - Dijkstra
   - Bellman–Ford
   - Floyd–Warshall
-- Reachability (Warshall’s Algorithm)
-- Strongly Connected Components (Kosaraju’s Algorithm)
+  - Cheapest Flights (K stops variation)
+- Grid-based Graph Problems:
+  - Flood Fill
+  - Number of Islands
+  - Rotting Oranges
+  - 01 Matrix
+- Union Find (DSU) Problems
+  - Remove Stones
 
 ---
 
@@ -68,6 +80,4 @@ readable, and interview-focused solutions.
 
 ## Goal
 
-The goal of this repository is to build **strong DSA fundamentals**
-and prepare for **technical interviews at product-based companies**
-through consistent practice and clean implementations.
+To build strong DSA fundamentals and prepare for technical interviews at product-based companies through structured learning and consistent practice.
