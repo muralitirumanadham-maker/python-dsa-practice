@@ -8,9 +8,8 @@ clean traversal patterns, and interview-level problem solving.
 
 ---
 
-## Concepts Covered
+## Graph Fundamentals
 
-### Graph Basics
 - Adjacency List
 - Adjacency Matrix
 - Directed and Undirected graphs
@@ -29,7 +28,6 @@ clean traversal patterns, and interview-level problem solving.
 ## Connected Components
 
 ### Number of Provinces
-- DFS on adjacency matrix
 
 ---
 
@@ -63,7 +61,7 @@ clean traversal patterns, and interview-level problem solving.
 ## Topological Sorting
 
 - DFS Topological Sort
-- BFS Topological Sort
+- BFS Topological Sort (Kahn’s Algorithm)
 
 ---
 
@@ -84,6 +82,12 @@ clean traversal patterns, and interview-level problem solving.
 ## Minimum Spanning Tree
 
 ### Prim’s Algorithm
+- Min heap greedy approach
+- Time Complexity: O(E log V)
+
+### Kruskal’s Algorithm
+- Edge sorting + Union Find
+- Time Complexity: O(E log E)
 
 ---
 
@@ -94,10 +98,15 @@ clean traversal patterns, and interview-level problem solving.
 - Time Complexity: O(E log V)
 
 ### Bellman Ford
+- Handles negative weights
+- Detects negative cycles
 
 ### Cheapest Flights Within K Stops
+- Limited relaxation (Bellman Ford variation)
 
 ### Floyd Warshall
+- All pairs shortest path
+- Time Complexity: O(V³)
 
 ---
 
@@ -116,6 +125,8 @@ clean traversal patterns, and interview-level problem solving.
 ## Disjoint Set Union (Union Find)
 
 ### Remove Stones
+- DSU connectivity
+- Path compression
 
 ---
 
@@ -124,19 +135,17 @@ clean traversal patterns, and interview-level problem solving.
 - Graph Representation
 - BFS Traversal
 - DFS Traversal
-- Number of Provinces
+- Connected Components
 - Clone Graph
-- Flood Fill
-- Number of Islands
-- Rotting Oranges
-- 01 Matrix
+- Grid BFS Problems
 - Cycle Detection
-- Topological Sort
+- Topological Sorting
 - Course Schedule I & II
 - Alien Dictionary
 - Bipartite Graph
 - Prim’s MST
-- Dijkstra Shortest Path ⭐
+- Kruskal’s MST
+- Dijkstra Shortest Path
 - Bellman Ford
 - Cheapest Flights Within K Stops
 - Floyd Warshall
